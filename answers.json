@@ -1,0 +1,111 @@
+{
+	"steps": [
+	{
+		"answers": [
+			{
+				"answer": "Алло",
+				"count": 6
+			},
+			{
+				"answer": "Вызываемый абонент не отвечает ваш звонок был переадресован на голосовой почтовый",
+				"count": 1
+			},
+			{
+				"answer": "Да",
+				"count": 2
+			}
+		],
+		"description": "тишина-001с.wav",
+		"step": 1,
+		"total_count": 9
+	},
+	{
+		"answers": [
+			{
+				"answer": "Да",
+				"count": 2
+			},
+			{
+				"answer": "Не то что случилось что",
+				"count": 1
+			},
+			{
+				"answer": "Нет не очень",
+				"count": 1
+			},
+			{
+				"answer": "Очень сигнала",
+				"count": 1
+			},
+			{
+				"answer": "Удобно",
+				"count": 2
+			},
+			{
+				"answer": "Я слушаю",
+				"count": 1
+			},
+			{
+				"answer": "Я слушаю вас",
+				"count": 1
+			},
+			{
+				"answer": "Я слушаю в чем дело",
+				"count": 1
+			}
+		],
+		"description": "ДДВамУдобно.wav, тишина-001с.wav",
+		"step": 2,
+		"total_count": 10
+	},
+	{
+		"answers": [
+			{
+				"answer": "Ну не знаю я сейчас боте на работе поэтому вака",
+				"count": 1
+			},
+			{
+				"answer": "Скажите кем я разговариваю",
+				"count": 1
+			}
+		],
+		"description": "ПерезвонюКогдаУдобно.wav, тишина-001с.wav",
+		"step": 3,
+		"total_count": 2
+	},
+	{
+		"answers": [
+			{
+				"answer": "Если небольшой давайте получатся",
+				"count": 1
+			},
+			{
+				"answer": "Нет",
+				"count": 1
+			},
+			{
+				"answer": "Нет спасибо",
+				"count": 1
+			},
+			{
+				"answer": "Угу",
+				"count": 1
+			}
+		],
+		"description": "ЕленаПровожуОпрос.wav, ЕленаПровожуОпросСогласны.wav, тишина-001с.wav",
+		"step": 5,
+		"total_count": 4
+	},
+	{
+		"answers": [
+			{
+				"answer": "Да",
+				"count": 1
+			}
+		],
+		"description": "ДовольныКачествомСна.wav, тишина-001с.wav",
+		"step": 9,
+		"total_count": 1
+	}
+]
+}

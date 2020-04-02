@@ -1,0 +1,23 @@
+*{-webkit-box-sizing:border-box;box-sizing:border-box}
+body,html{width:100%;min-height:100%;margin:0}
+.container {
+	padding-top: 100px;
+	width: 700px;
+	height: 100%;
+	min-height:100%;
+}
+
+.table .detail > td, .table tr.detail.detail .detail-container {padding: 0}
+
+.table .detail .detail-container > tr {
+	display: block;
+	width: 100%;
+}
+.table .detail .msg_txt {
+	width: 100%;
+	padding-left: 70px;
+}
+.table .detail .msg_cnt {
+	min-width: 120px;
+	text-align: center;
+}

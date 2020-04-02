@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<link rel="stylesheet" href="https://unpkg.com/buefy/dist/buefy.min.css">
+	<link rel="stylesheet" href="https://cdn.materialdesignicons.com/2.0.46/css/materialdesignicons.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+		<section class="container hero is-fullheight"  id="app">
+			<b-table
+				:data="steps"
+				ref="table"
+				hoverable
+				detailed
+				detail-key="step"
+			>
+
+				<template slot-scope="props">
+					<b-table-column field="step" label="Ответы">Шаг {{props.row.step}}</b-table-column>
+					<b-table-column field="user.first_name" label="Количество" width="120" centered>{{props.row.total_count}}</b-table-column>
+				</template>
+
+				<template slot="detail" slot-scope="props">
+					<tr v-for="i in props.row.answers" :key="i.answer">
+						<td class="msg_txt">{{ i.answer }}</td>
+						<td class="msg_cnt">{{ i.count }}</td>
+					</tr>
+				</template>
+
+
+			</b-table>
+		</section>
+
+
+	<script src="https://unpkg.com/vue"></script>
+	<script src="https://unpkg.com/buefy/dist/buefy.min.js"></script>
+	<script src="js/main.js"></script>
+
+	<script src="https://unpkg.com/buefy/dist/components/table"></script>
+
+</body>
+</html>
